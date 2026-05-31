@@ -1,0 +1,102 @@
+[
+    {
+        "Q.No": "1",
+        "Question": "What is the chemical symbol for water?",
+        "Option A": "H\u2082O",
+        "Option B": "CO\u2082",
+        "Option C": "NaCl",
+        "Option D": "O\u2082",
+        "Correct Option": "A",
+        "Explanation": "Water is composed of two hydrogen atoms and one oxygen atom, giving it the chemical formula H\u2082O."
+    },
+    {
+        "Q.No": "2",
+        "Question": "Which planet is known as the Red Planet?",
+        "Option A": "Mars",
+        "Option B": "Venus",
+        "Option C": "Jupiter",
+        "Option D": "Saturn",
+        "Correct Option": "A",
+        "Explanation": "Mars is called the Red Planet because of the iron oxide (rust) on its surface, which gives it a reddish appearance."
+    },
+    {
+        "Q.No": "3",
+        "Question": "What is the powerhouse of the cell?",
+        "Option A": "Mitochondria",
+        "Option B": "Nucleus",
+        "Option C": "Ribosome",
+        "Option D": "Chloroplast",
+        "Correct Option": "A",
+        "Explanation": "Mitochondria are organelles that generate most of the cell's supply of adenosine triphosphate (ATP), used as a source of chemical energy."
+    },
+    {
+        "Q.No": "4",
+        "Question": "What gas do plants absorb from the atmosphere during photosynthesis?",
+        "Option A": "Carbon dioxide",
+        "Option B": "Oxygen",
+        "Option C": "Nitrogen",
+        "Option D": "Hydrogen",
+        "Correct Option": "A",
+        "Explanation": "During photosynthesis, plants take in carbon dioxide (CO\u2082) from the air and water (H\u2082O) from the soil to produce glucose and oxygen."
+    },
+    {
+        "Q.No": "5",
+        "Question": "What is the speed of light in a vacuum?",
+        "Option A": "Approximately 299,792 km/s",
+        "Option B": "Approximately 150,000 km/s",
+        "Option C": "Approximately 500,000 km/s",
+        "Option D": "Approximately 100,000 km/s",
+        "Correct Option": "A",
+        "Explanation": "The speed of light in a vacuum is exactly 299,792,458 meters per second (approximately 300,000 km/s)."
+    },
+    {
+        "Q.No": "6",
+        "Question": "Which organ in the human body is primarily responsible for filtering blood?",
+        "Option A": "Kidneys",
+        "Option B": "Liver",
+        "Option C": "Heart",
+        "Option D": "Lungs",
+        "Correct Option": "A",
+        "Explanation": "The kidneys filter waste products from the blood and produce urine. Each person has two kidneys located on either side of the spine."
+    },
+    {
+        "Q.No": "7",
+        "Question": "What is the smallest unit of matter?",
+        "Option A": "Atom",
+        "Option B": "Molecule",
+        "Option C": "Cell",
+        "Option D": "Electron",
+        "Correct Option": "A",
+        "Explanation": "An atom is the smallest unit of ordinary matter that forms a chemical element. Every solid, liquid, gas, and plasma is composed of atoms."
+    },
+    {
+        "Q.No": "8",
+        "Question": "Which force keeps planets in orbit around the Sun?",
+        "Option A": "Gravity",
+        "Option B": "Magnetism",
+        "Option C": "Friction",
+        "Option D": "Nuclear force",
+        "Correct Option": "A",
+        "Explanation": "Gravity is the force of attraction between any two masses. The Sun's gravity keeps the planets in their orbits."
+    },
+    {
+        "Q.No": "9",
+        "Question": "What is the pH value of pure water?",
+        "Option A": "7",
+        "Option B": "0",
+        "Option C": "14",
+        "Option D": "1",
+        "Correct Option": "A",
+        "Explanation": "Pure water has a pH of 7, which is neutral on the pH scale. Values below 7 are acidic, and values above 7 are basic/alkaline."
+    },
+    {
+        "Q.No": "10",
+        "Question": "Which gas makes up approximately 78% of Earth's atmosphere?",
+        "Option A": "Nitrogen",
+        "Option B": "Oxygen",
+        "Option C": "Carbon dioxide",
+        "Option D": "Argon",
+        "Correct Option": "A",
+        "Explanation": "Earth's atmosphere is approximately 78% nitrogen, 21% oxygen, and 1% other gases including argon, carbon dioxide, and water vapor."
+    }
+]
