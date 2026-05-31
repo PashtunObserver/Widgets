@@ -1,0 +1,310 @@
+{
+  "css": "/* ========== PASHTOOGLE QUIZ WIDGET CSS ========== */\n.pashtoogle-quiz .pq-quiz-container {\n  max-width: 100% !important;\n  margin: 20px auto !important;\n  padding: 24px !important;\n  background: #ffffff !important;\n  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08) !important;\n  border-radius: 12px !important;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif !important;\n  box-sizing: border-box !important;\n}\n.pashtoogle-quiz .pq-start-screen {\n  text-align: center !important;\n  padding: 50px 20px !important;\n}\n.pashtoogle-quiz .pq-start-screen h1 {\n  margin: 0 0 20px 0 !important;\n  color: #1a1a2e !important;\n  font-size: 32px !important;\n  font-weight: 700 !important;\n  line-height: 1.3 !important;\n}\n.pashtoogle-quiz .pq-start-screen p {\n  font-size: 18px !important;\n  color: #555 !important;\n  margin: 0 0 30px 0 !important;\n  line-height: 1.7 !important;\n}\n.pashtoogle-quiz .pq-btn-start {\n  display: inline-block !important;\n  padding: 14px 48px !important;\n  font-size: 19px !important;\n  font-weight: 600 !important;\n  color: #fff !important;\n  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;\n  border: none !important;\n  border-radius: 50px !important;\n  cursor: pointer !important;\n  transition: transform 0.2s, box-shadow 0.2s !important;\n  text-decoration: none !important;\n}\n.pashtoogle-quiz .pq-btn-start:hover {\n  transform: translateY(-2px) !important;\n  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4) !important;\n}\n.pashtoogle-quiz .pq-btn-start:active {\n  transform: translateY(0) !important;\n}\n.pashtoogle-quiz .pq-quiz-header {\n  display: flex !important;\n  justify-content: space-between !important;\n  align-items: center !important;\n  margin-bottom: 16px !important;\n  flex-wrap: wrap !important;\n  gap: 8px !important;\n}\n.pashtoogle-quiz .pq-badge {\n  display: inline-block !important;\n  padding: 6px 14px !important;\n  font-size: 14px !important;\n  font-weight: 600 !important;\n  border-radius: 20px !important;\n  color: #fff !important;\n}\n.pashtoogle-quiz .pq-badge-secondary {\n  background: #6c757d !important;\n}\n.pashtoogle-quiz .pq-badge-info {\n  background: #17a2b8 !important;\n}\n.pashtoogle-quiz .pq-progress-wrap {\n  margin-bottom: 20px !important;\n  height: 10px !important;\n  background: #e9ecef !important;\n  border-radius: 10px !important;\n  overflow: hidden !important;\n}\n.pashtoogle-quiz .pq-progress-bar {\n  height: 100% !important;\n  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%) !important;\n  border-radius: 10px !important;\n  transition: width 0.4s ease !important;\n}\n.pashtoogle-quiz .pq-timer {\n  font-size: 32px !important;\n  font-weight: 700 !important;\n  color: #dc3545 !important;\n  text-align: center !important;\n  margin-bottom: 20px !important;\n  padding: 12px !important;\n  background: #fff5f5 !important;\n  border-radius: 10px !important;\n  border: 2px solid #ffcdd2 !important;\n  font-family: 'Courier New', monospace !important;\n  letter-spacing: 2px !important;\n}\n.pashtoogle-quiz .pq-timer.pq-warning {\n  color: #ff9800 !important;\n  background: #fff8e1 !important;\n  border-color: #ffe082 !important;\n  animation: pqPulse 1s infinite !important;\n}\n.pashtoogle-quiz .pq-timer.pq-danger {\n  color: #dc3545 !important;\n  background: #ffebee !important;\n  border-color: #ef9a9a !important;\n  animation: pqPulse 0.5s infinite !important;\n}\n@keyframes pqPulse {\n  0% { transform: scale(1); }\n  50% { transform: scale(1.03); }\n  100% { transform: scale(1); }\n}\n.pashtoogle-quiz .pq-question {\n  font-weight: 700 !important;\n  margin-bottom: 20px !important;\n  font-size: 18px !important;\n  color: #1a1a2e !important;\n  line-height: 1.5 !important;\n}\n.pashtoogle-quiz .pq-options {\n  display: flex !important;\n  flex-direction: column !important;\n  gap: 10px !important;\n}\n.pashtoogle-quiz .pq-options button {\n  display: block !important;\n  width: 100% !important;\n  padding: 14px 18px !important;\n  margin: 0 !important;\n  font-size: 16px !important;\n  font-weight: 500 !important;\n  text-align: left !important;\n  color: #495057 !important;\n  background: #fff !important;\n  border: 2px solid #dee2e6 !important;\n  border-radius: 10px !important;\n  cursor: pointer !important;\n  transition: all 0.25s ease !important;\n  box-sizing: border-box !important;\n  line-height: 1.4 !important;\n}\n.pashtoogle-quiz .pq-options button:hover:not(:disabled) {\n  background: #f8f9fa !important;\n  border-color: #667eea !important;\n  color: #667eea !important;\n  transform: translateX(4px) !important;\n}\n.pashtoogle-quiz .pq-options button:disabled {\n  cursor: not-allowed !important;\n  opacity: 0.85 !important;\n}\n.pashtoogle-quiz .pq-options button.pq-correct {\n  background-color: #d4edda !important;\n  color: #155724 !important;\n  border-color: #28a745 !important;\n  font-weight: 600 !important;\n}\n.pashtoogle-quiz .pq-options button.pq-correct::after {\n  content: \" \u2713\" !important;\n  float: right !important;\n  font-weight: 700 !important;\n}\n.pashtoogle-quiz .pq-options button.pq-incorrect {\n  background-color: #f8d7da !important;\n  color: #721c24 !important;\n  border-color: #dc3545 !important;\n  text-decoration: line-through !important;\n}\n.pashtoogle-quiz .pq-options button.pq-incorrect::after {\n  content: \" \u2717\" !important;\n  float: right !important;\n  font-weight: 700 !important;\n}\n.pashtoogle-quiz .pq-explanation-btn {\n  display: inline-block !important;\n  margin-top: 16px !important;\n  padding: 8px 20px !important;\n  font-size: 14px !important;\n  font-weight: 500 !important;\n  color: #fff !important;\n  background: #17a2b8 !important;\n  border: none !important;\n  border-radius: 6px !important;\n  cursor: pointer !important;\n  transition: background 0.2s !important;\n}\n.pashtoogle-quiz .pq-explanation-btn:hover {\n  background: #138496 !important;\n}\n.pashtoogle-quiz .pq-explanation {\n  background-color: #e7f3ff !important;\n  padding: 16px !important;\n  border-left: 4px solid #007bff !important;\n  margin-top: 12px !important;\n  display: none !important;\n  border-radius: 0 8px 8px 0 !important;\n  color: #004085 !important;\n  font-size: 15px !important;\n  line-height: 1.6 !important;\n}\n.pashtoogle-quiz .pq-next-wrap {\n  margin-top: 20px !important;\n  text-align: right !important;\n}\n.pashtoogle-quiz .pq-btn-next {\n  display: inline-block !important;\n  padding: 12px 32px !important;\n  font-size: 16px !important;\n  font-weight: 600 !important;\n  color: #fff !important;\n  background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%) !important;\n  border: none !important;\n  border-radius: 8px !important;\n  cursor: pointer !important;\n  transition: all 0.2s !important;\n}\n.pashtoogle-quiz .pq-btn-next:hover:not(:disabled) {\n  transform: translateY(-2px) !important;\n  box-shadow: 0 6px 20px rgba(17, 153, 142, 0.3) !important;\n}\n.pashtoogle-quiz .pq-btn-next:disabled {\n  background: #adb5bd !important;\n  cursor: not-allowed !important;\n  transform: none !important;\n  box-shadow: none !important;\n}\n.pashtoogle-quiz .pq-result-card {\n  text-align: center !important;\n  padding: 40px 20px !important;\n}\n.pashtoogle-quiz .pq-result-card h2 {\n  margin: 0 0 20px 0 !important;\n  color: #1a1a2e !important;\n  font-size: 29px !important;\n}\n.pashtoogle-quiz .pq-score-display {\n  font-size: 56px !important;\n  font-weight: 800 !important;\n  margin: 20px 0 !important;\n  color: #1a1a2e !important;\n  line-height: 1 !important;\n}\n.pashtoogle-quiz .pq-score-display span {\n  color: #667eea !important;\n}\n.pashtoogle-quiz .pq-percentage {\n  font-size: 21px !important;\n  color: #555 !important;\n  margin-bottom: 20px !important;\n}\n.pashtoogle-quiz .pq-remarks {\n  font-size: 21px !important;\n  font-weight: 700 !important;\n  padding: 18px 24px !important;\n  border-radius: 12px !important;\n  margin: 20px auto 0 auto !important;\n  max-width: 400px !important;\n  line-height: 1.4 !important;\n}\n.pashtoogle-quiz .pq-remarks.pq-excellent {\n  background: #d4edda !important;\n  color: #155724 !important;\n  border: 2px solid #28a745 !important;\n}\n.pashtoogle-quiz .pq-remarks.pq-good {\n  background: #d1ecf1 !important;\n  color: #0c5460 !important;\n  border: 2px solid #17a2b8 !important;\n}\n.pashtoogle-quiz .pq-remarks.pq-average {\n  background: #fff3cd !important;\n  color: #856404 !important;\n  border: 2px solid #ffc107 !important;\n}\n.pashtoogle-quiz .pq-remarks.pq-poor {\n  background: #f8d7da !important;\n  color: #721c24 !important;\n  border: 2px solid #dc3545 !important;\n}\n.pashtoogle-quiz .pq-btn-restart {\n  display: inline-block !important;\n  margin-top: 30px !important;\n  padding: 14px 40px !important;\n  font-size: 18px !important;\n  font-weight: 600 !important;\n  color: #fff !important;\n  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;\n  border: none !important;\n  border-radius: 50px !important;\n  cursor: pointer !important;\n  transition: transform 0.2s, box-shadow 0.2s !important;\n}\n.pashtoogle-quiz .pq-btn-restart:hover {\n  transform: translateY(-2px) !important;\n  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4) !important;\n}\n.pashtoogle-quiz .pq-error {\n  padding: 20px !important;\n  background: #f8d7da !important;\n  color: #721c24 !important;\n  border: 1px solid #f5c6cb !important;\n  border-radius: 8px !important;\n  text-align: center !important;\n  font-weight: 500 !important;\n}\n.pashtoogle-quiz .pq-hidden {\n  display: none !important;\n}\n.pashtoogle-quiz {\n  -webkit-user-select: none !important;\n  -moz-user-select: none !important;\n  -ms-user-select: none !important;\n  user-select: none !important;\n}\n@media (max-width: 768px) {\n  .pashtoogle-quiz .pq-quiz-container {\n    padding: 16px !important;\n    margin: 10px auto !important;\n  }\n  .pashtoogle-quiz .pq-start-screen {\n    padding: 30px 15px !important;\n  }\n  .pashtoogle-quiz .pq-start-screen h1 {\n    font-size: 24px !important;\n  }\n  .pashtoogle-quiz .pq-timer {\n    font-size: 24px !important;\n    padding: 10px !important;\n  }\n  .pashtoogle-quiz .pq-score-display {\n    font-size: 40px !important;\n  }\n  .pashtoogle-quiz .pq-question {\n    font-size: 16px !important;\n  }\n  .pashtoogle-quiz .pq-options button {\n    padding: 12px 14px !important;\n    font-size: 15px !important;\n  }\n}",
+  "js": "(function() {\n  'use strict';\n  var widgets = document.querySelectorAll('.pashtoogle-quiz');\n  if (widgets.length === 0) return;\n  var widget = widgets[widgets.length - 1];\n  var BUNDLE_URL = widget.getAttribute('data-bundle-url');\n  var SUBJECT_KEY = widget.getAttribute('data-subject-key');\n  var SUBJECT = widget.getAttribute('data-subject') || 'Quiz';\n  var TIMER_SECONDS = parseInt(widget.getAttribute('data-timer')) || 60;\n  var quizData = [];\n  var currentQuestion = 0;\n  var score = 0;\n  var timerInterval = null;\n  var timeLeft = 0;\n  var answered = false;\n  function $id(id) { return widget.querySelector('#' + id); }\n  var titleEl = widget.querySelector('.pq-subject-title');\n  if (titleEl) titleEl.textContent = SUBJECT;\n  var timerPerQEl = widget.querySelector('.pq-timer-per-q');\n  if (timerPerQEl) timerPerQEl.textContent = Math.ceil(TIMER_SECONDS / 60);\n  function loadBundle() {\n    if (!BUNDLE_URL || !SUBJECT_KEY) {\n      showError('Please set data-bundle-url and data-subject-key attributes.');\n      return;\n    }\n    var xhr = new XMLHttpRequest();\n    xhr.open('GET', BUNDLE_URL + '?t=' + Date.now(), true);\n    xhr.onreadystatechange = function() {\n      if (xhr.readyState === 4) {\n        if (xhr.status === 200) {\n          try {\n            var bundle = JSON.parse(xhr.responseText);\n            // Inject CSS\n            if (bundle.css) {\n              var style = document.createElement('style');\n              style.textContent = bundle.css;\n              document.head.appendChild(style);\n            }\n            // Load quiz data\n            var jsonData = bundle[SUBJECT_KEY];\n            if (!jsonData) {\n              showError('Subject key \"' + SUBJECT_KEY + '\" not found in bundle.');\n              return;\n            }\n            quizData = [];\n            for (var i = 0; i < jsonData.length; i++) {\n              var item = jsonData[i];\n              quizData.push({\n                qNo: parseInt(item[\"Q.No\"]),\n                question: item[\"Question\"],\n                options: [item[\"Option A\"], item[\"Option B\"], item[\"Option C\"], item[\"Option D\"]],\n                correct: item[\"Correct Option\"].charCodeAt(0) - 65,\n                explanation: item[\"Explanation\"]\n              });\n            }\n            var totalQ = quizData.length;\n            var totalEls = widget.querySelectorAll('.pq-total-questions, #pqTotalQ, #pqTotalCount');\n            for (var j = 0; j < totalEls.length; j++) {\n              totalEls[j].textContent = totalQ;\n            }\n          } catch (e) {\n            showError('Error parsing bundle: ' + e.message);\n          }\n        } else {\n          showError('Failed to load bundle. Status: ' + xhr.status);\n        }\n      }\n    };\n    xhr.onerror = function() {\n      showError('Network error. Please check your bundle URL.');\n    };\n    xhr.send();\n  }\n  function showError(msg) {\n    var startScreen = $id('pqStartScreen');\n    if (startScreen) {\n      startScreen.innerHTML = '<div class=\"pq-error\">' + msg + '</div>';\n    }\n  }\n  window.pqStartQuiz = function() {\n    if (quizData.length === 0) return;\n    $id('pqStartScreen').classList.add('pq-hidden');\n    $id('pqQuizScreen').classList.remove('pq-hidden');\n    $id('pqResultScreen').classList.add('pq-hidden');\n    currentQuestion = 0;\n    score = 0;\n    $id('pqCurrentScore').textContent = '0';\n    showQuestion();\n  };\n  function showQuestion() {\n    answered = false;\n    var data = quizData[currentQuestion];\n    $id('pqCurrentQ').textContent = currentQuestion + 1;\n    var progress = ((currentQuestion) / quizData.length) * 100;\n    $id('pqProgressBar').style.width = progress + '%';\n    var quizContainer = $id('pqQuiz');\n    var optionsHtml = '';\n    for (var i = 0; i < data.options.length; i++) {\n      optionsHtml += '<button class=\"\" id=\"pq-opt-' + i + '\" onclick=\"pqCheckAnswer(this, ' + currentQuestion + ', ' + i + ')\">' + data.options[i] + '</button>';\n    }\n    quizContainer.innerHTML = \n      '<div class=\"mb-4\">' +\n        '<div class=\"pq-question\">' + data.qNo + '. ' + data.question + '</div>' +\n        '<div class=\"pq-options\">' + optionsHtml + '</div>' +\n        '<button class=\"pq-explanation-btn pq-hidden\" id=\"pqExpBtn\" onclick=\"pqToggleExplanation()\">Show Explanation</button>' +\n        '<div class=\"pq-explanation pq-hidden\" id=\"pqExplanation\">' + data.explanation + '</div>' +\n        '<div class=\"pq-next-wrap\">' +\n          '<button class=\"pq-btn-next\" id=\"pqNextBtn\" onclick=\"pqNextQuestion()\" disabled>Next \u279c</button>' +\n        '</div>' +\n      '</div>';\n    startTimer();\n  }\n  function startTimer() {\n    timeLeft = TIMER_SECONDS;\n    updateTimerDisplay();\n    var timerEl = $id('pqTimer');\n    timerEl.classList.remove('pq-warning', 'pq-danger');\n    if (timerInterval) clearInterval(timerInterval);\n    timerInterval = setInterval(function() {\n      timeLeft--;\n      updateTimerDisplay();\n      if (timeLeft <= 20 && timeLeft > 10) {\n        timerEl.classList.add('pq-warning');\n      } else if (timeLeft <= 10) {\n        timerEl.classList.remove('pq-warning');\n        timerEl.classList.add('pq-danger');\n      }\n      if (timeLeft <= 0) {\n        clearInterval(timerInterval);\n        timerInterval = null;\n        timeUp();\n      }\n    }, 1000);\n  }\n  function updateTimerDisplay() {\n    var minutes = Math.floor(timeLeft / 60);\n    var seconds = timeLeft % 60;\n    $id('pqTimer').textContent = \n      (minutes < 10 ? '0' : '') + minutes + ':' + (seconds < 10 ? '0' : '') + seconds;\n  }\n  function timeUp() {\n    if (!answered) {\n      var buttons = widget.querySelectorAll('.pq-options button');\n      var correctIndex = quizData[currentQuestion].correct;\n      for (var i = 0; i < buttons.length; i++) {\n        buttons[i].disabled = true;\n        if (i === correctIndex) {\n          buttons[i].classList.add('pq-correct');\n        }\n      }\n      $id('pqExpBtn').classList.remove('pq-hidden');\n      $id('pqNextBtn').disabled = false;\n      answered = true;\n    }\n  }\n  window.pqCheckAnswer = function(btn, questionIndex, optionIndex) {\n    if (answered) return;\n    answered = true;\n    if (timerInterval) {\n      clearInterval(timerInterval);\n      timerInterval = null;\n    }\n    var parent = btn.parentNode;\n    var buttons = parent.querySelectorAll('button');\n    var correctIndex = quizData[questionIndex].correct;\n    for (var i = 0; i < buttons.length; i++) {\n      buttons[i].disabled = true;\n    }\n    if (optionIndex === correctIndex) {\n      btn.classList.add('pq-correct');\n      score++;\n      $id('pqCurrentScore').textContent = score;\n    } else {\n      btn.classList.add('pq-incorrect');\n      buttons[correctIndex].classList.add('pq-correct');\n    }\n    $id('pqExpBtn').classList.remove('pq-hidden');\n    $id('pqNextBtn').disabled = false;\n  };\n  window.pqToggleExplanation = function() {\n    var btn = $id('pqExpBtn');\n    var explanationDiv = $id('pqExplanation');\n    if (!btn || !explanationDiv) return;\n    if (explanationDiv.classList.contains('pq-hidden')) {\n      explanationDiv.classList.remove('pq-hidden');\n      btn.textContent = 'Hide Explanation';\n    } else {\n      explanationDiv.classList.add('pq-hidden');\n      btn.textContent = 'Show Explanation';\n    }\n  };\n  window.pqNextQuestion = function() {\n    if (timerInterval) {\n      clearInterval(timerInterval);\n      timerInterval = null;\n    }\n    currentQuestion++;\n    if (currentQuestion < quizData.length) {\n      showQuestion();\n    } else {\n      showResults();\n    }\n  };\n  function showResults() {\n    $id('pqQuizScreen').classList.add('pq-hidden');\n    $id('pqResultScreen').classList.remove('pq-hidden');\n    var total = quizData.length;\n    var percentage = Math.round((score / total) * 100);\n    $id('pqCorrectCount').textContent = score;\n    $id('pqPercentage').textContent = percentage;\n    var remarksEl = $id('pqRemarks');\n    var remarksText = '';\n    var remarksClass = '';\n    if (percentage >= 80) {\n      remarksText = '\ud83c\udf1f Excellent! Outstanding performance!';\n      remarksClass = 'pq-excellent';\n    } else if (percentage >= 60) {\n      remarksText = '\ud83d\udc4d Good Job! Well done!';\n      remarksClass = 'pq-good';\n    } else if (percentage >= 40) {\n      remarksText = '\ud83d\ude10 Average. Keep practicing!';\n      remarksClass = 'pq-average';\n    } else {\n      remarksText = '\ud83d\udcaa Needs Improvement. Try again!';\n      remarksClass = 'pq-poor';\n    }\n    remarksEl.textContent = remarksText;\n    remarksEl.className = 'pq-remarks ' + remarksClass;\n  }\n  window.pqRestartQuiz = function() {\n    $id('pqResultScreen').classList.add('pq-hidden');\n    $id('pqStartScreen').classList.remove('pq-hidden');\n  };\n  widget.addEventListener('contextmenu', function(e) {\n    e.preventDefault();\n  });\n  loadBundle();\n})();",
+  "jsonData_cs": [
+    {
+      "Q.No": "1",
+      "Question": "What does cybersecurity primarily aim to protect?",
+      "Option A": "Data, networks, and systems",
+      "Option B": "Only software applications",
+      "Option C": "Only hardware devices",
+      "Option D": "Only user credentials",
+      "Correct Option": "A",
+      "Explanation": "Cybersecurity focuses on protecting data, networks, and systems from unauthorized access and attacks."
+    },
+    {
+      "Q.No": "2",
+      "Question": "Which of the following is a common cyber threat?",
+      "Option A": "Malware",
+      "Option B": "Natural disasters",
+      "Option C": "Hardware malfunctions",
+      "Option D": "Software updates",
+      "Correct Option": "A",
+      "Explanation": "Malware, including viruses, worms, and trojans, is one of the most common cyber threats."
+    },
+    {
+      "Q.No": "3",
+      "Question": "What is a firewall?",
+      "Option A": "A network security device that monitors and filters traffic",
+      "Option B": "A software for virus scanning",
+      "Option C": "A tool for encrypting files",
+      "Option D": "A type of intrusion detection system",
+      "Correct Option": "A",
+      "Explanation": "A firewall controls incoming and outgoing network traffic based on predetermined security rules."
+    },
+    {
+      "Q.No": "4",
+      "Question": "What does 'phishing' refer to in cybersecurity?",
+      "Option A": "A fraudulent attempt to obtain sensitive information by disguising as a trustworthy entity",
+      "Option B": "A method of encrypting data",
+      "Option C": "A type of firewall configuration",
+      "Option D": "A network monitoring tool",
+      "Correct Option": "A",
+      "Explanation": "Phishing is a cyberattack where attackers impersonate legitimate organizations to steal sensitive data like passwords and credit card numbers."
+    },
+    {
+      "Q.No": "5",
+      "Question": "Which encryption protocol is commonly used for secure web browsing?",
+      "Option A": "SSL/TLS",
+      "Option B": "FTP",
+      "Option C": "HTTP",
+      "Option D": "SMTP",
+      "Correct Option": "A",
+      "Explanation": "SSL (Secure Sockets Layer) and TLS (Transport Layer Security) are cryptographic protocols designed to provide secure communication over a computer network."
+    },
+    {
+      "Q.No": "6",
+      "Question": "What is the purpose of a VPN?",
+      "Option A": "To create a secure, encrypted connection over a less secure network",
+      "Option B": "To increase internet speed",
+      "Option C": "To block all incoming traffic",
+      "Option D": "To replace a firewall",
+      "Correct Option": "A",
+      "Explanation": "A Virtual Private Network (VPN) extends a private network across a public network, enabling users to send and receive data securely."
+    },
+    {
+      "Q.No": "7",
+      "Question": "What is 'two-factor authentication' (2FA)?",
+      "Option A": "A security process requiring two different authentication factors to verify identity",
+      "Option B": "Using two passwords instead of one",
+      "Option C": "Logging in from two different devices",
+      "Option D": "A type of encryption method",
+      "Correct Option": "A",
+      "Explanation": "2FA adds an extra layer of security by requiring two forms of identification, such as a password and a code sent to your phone."
+    },
+    {
+      "Q.No": "8",
+      "Question": "Which of the following is NOT a type of malware?",
+      "Option A": "Firewall",
+      "Option B": "Ransomware",
+      "Option C": "Spyware",
+      "Option D": "Trojan",
+      "Correct Option": "A",
+      "Explanation": "A firewall is a security device, not malware. Ransomware, spyware, and trojans are all types of malicious software."
+    },
+    {
+      "Q.No": "9",
+      "Question": "What does DDoS stand for?",
+      "Option A": "Distributed Denial of Service",
+      "Option B": "Data Delivery Over System",
+      "Option C": "Digital Defense Operating System",
+      "Option D": "Dynamic Data Output Stream",
+      "Correct Option": "A",
+      "Explanation": "A DDoS attack attempts to disrupt normal traffic by overwhelming the target with a flood of Internet traffic from multiple sources."
+    },
+    {
+      "Q.No": "10",
+      "Question": "What is the primary purpose of an antivirus software?",
+      "Option A": "To detect, prevent, and remove malware",
+      "Option B": "To speed up the computer",
+      "Option C": "To manage network connections",
+      "Option D": "To create backups",
+      "Correct Option": "A",
+      "Explanation": "Antivirus software is designed to detect, prevent, and remove malicious software like viruses, worms, and trojans."
+    }
+  ],
+  "jsonData_eng": [
+    {
+      "Q.No": "1",
+      "Question": "Which sentence is grammatically correct?",
+      "Option A": "She doesn't like apples.",
+      "Option B": "She don't like apples.",
+      "Option C": "She not like apples.",
+      "Option D": "She isn't like apples.",
+      "Correct Option": "A",
+      "Explanation": "With third-person singular subjects (she, he, it), we use 'doesn't' + base verb. 'Don't' is used with I, you, we, they."
+    },
+    {
+      "Q.No": "2",
+      "Question": "Choose the correct past tense form: 'Yesterday, I _____ to the market.'",
+      "Option A": "went",
+      "Option B": "go",
+      "Option C": "gone",
+      "Option D": "going",
+      "Correct Option": "A",
+      "Explanation": "'Went' is the simple past tense of 'go'. We use simple past for completed actions at a specific time in the past."
+    },
+    {
+      "Q.No": "3",
+      "Question": "Which word is a synonym of 'happy'?",
+      "Option A": "Joyful",
+      "Option B": "Sad",
+      "Option C": "Angry",
+      "Option D": "Tired",
+      "Correct Option": "A",
+      "Explanation": "'Joyful' means feeling or expressing great happiness, making it a synonym of 'happy'."
+    },
+    {
+      "Q.No": "4",
+      "Question": "Identify the noun in this sentence: 'The cat sleeps on the mat.'",
+      "Option A": "cat",
+      "Option B": "sleeps",
+      "Option C": "on",
+      "Option D": "the",
+      "Correct Option": "A",
+      "Explanation": "A noun is a word that names a person, place, thing, or animal. 'Cat' is a noun naming an animal."
+    },
+    {
+      "Q.No": "5",
+      "Question": "Which is the correct comparative form of 'good'?",
+      "Option A": "better",
+      "Option B": "gooder",
+      "Option C": "more good",
+      "Option D": "best",
+      "Correct Option": "A",
+      "Explanation": "'Better' is the comparative form of 'good'. 'Best' is the superlative form. 'Good' is an irregular adjective."
+    },
+    {
+      "Q.No": "6",
+      "Question": "Choose the correct article: 'I saw _____ elephant at the zoo.'",
+      "Option A": "an",
+      "Option B": "a",
+      "Option C": "the",
+      "Option D": "no article needed",
+      "Correct Option": "A",
+      "Explanation": "We use 'an' before words that begin with a vowel sound. 'Elephant' starts with a vowel sound /e/."
+    },
+    {
+      "Q.No": "7",
+      "Question": "Which sentence uses the correct subject-verb agreement?",
+      "Option A": "The group of students is studying.",
+      "Option B": "The group of students are studying.",
+      "Option C": "The group of students were studying.",
+      "Option D": "The group of students have studying.",
+      "Correct Option": "A",
+      "Explanation": "When the subject is 'group' (singular), the verb must also be singular ('is'). The phrase 'of students' is a prepositional phrase and doesn't affect verb agreement."
+    },
+    {
+      "Q.No": "8",
+      "Question": "What is the plural form of 'child'?",
+      "Option A": "children",
+      "Option B": "childs",
+      "Option C": "childrens",
+      "Option D": "childes",
+      "Correct Option": "A",
+      "Explanation": "'Children' is the irregular plural form of 'child'. Many English nouns have irregular plurals that don't follow the standard -s or -es rule."
+    },
+    {
+      "Q.No": "9",
+      "Question": "Choose the correct preposition: 'She is interested _____ learning French.'",
+      "Option A": "in",
+      "Option B": "on",
+      "Option C": "at",
+      "Option D": "to",
+      "Correct Option": "A",
+      "Explanation": "The adjective 'interested' is typically followed by the preposition 'in'. We say 'interested in' something."
+    },
+    {
+      "Q.No": "10",
+      "Question": "Which sentence is in the passive voice?",
+      "Option A": "The cake was baked by my mother.",
+      "Option B": "My mother baked the cake.",
+      "Option C": "My mother is baking the cake.",
+      "Option D": "My mother will bake the cake.",
+      "Correct Option": "A",
+      "Explanation": "Passive voice is formed with 'be' + past participle. In 'The cake was baked by my mother', the object (cake) becomes the subject and the action is done to it."
+    }
+  ],
+  "jsonData_Sci": [
+    {
+      "Q.No": "1",
+      "Question": "What is the chemical symbol for water?",
+      "Option A": "H\u2082O",
+      "Option B": "CO\u2082",
+      "Option C": "NaCl",
+      "Option D": "O\u2082",
+      "Correct Option": "A",
+      "Explanation": "Water is composed of two hydrogen atoms and one oxygen atom, giving it the chemical formula H\u2082O."
+    },
+    {
+      "Q.No": "2",
+      "Question": "Which planet is known as the Red Planet?",
+      "Option A": "Mars",
+      "Option B": "Venus",
+      "Option C": "Jupiter",
+      "Option D": "Saturn",
+      "Correct Option": "A",
+      "Explanation": "Mars is called the Red Planet because of the iron oxide (rust) on its surface, which gives it a reddish appearance."
+    },
+    {
+      "Q.No": "3",
+      "Question": "What is the powerhouse of the cell?",
+      "Option A": "Mitochondria",
+      "Option B": "Nucleus",
+      "Option C": "Ribosome",
+      "Option D": "Chloroplast",
+      "Correct Option": "A",
+      "Explanation": "Mitochondria are organelles that generate most of the cell's supply of adenosine triphosphate (ATP), used as a source of chemical energy."
+    },
+    {
+      "Q.No": "4",
+      "Question": "What gas do plants absorb from the atmosphere during photosynthesis?",
+      "Option A": "Carbon dioxide",
+      "Option B": "Oxygen",
+      "Option C": "Nitrogen",
+      "Option D": "Hydrogen",
+      "Correct Option": "A",
+      "Explanation": "During photosynthesis, plants take in carbon dioxide (CO\u2082) from the air and water (H\u2082O) from the soil to produce glucose and oxygen."
+    },
+    {
+      "Q.No": "5",
+      "Question": "What is the speed of light in a vacuum?",
+      "Option A": "Approximately 299,792 km/s",
+      "Option B": "Approximately 150,000 km/s",
+      "Option C": "Approximately 500,000 km/s",
+      "Option D": "Approximately 100,000 km/s",
+      "Correct Option": "A",
+      "Explanation": "The speed of light in a vacuum is exactly 299,792,458 meters per second (approximately 300,000 km/s)."
+    },
+    {
+      "Q.No": "6",
+      "Question": "Which organ in the human body is primarily responsible for filtering blood?",
+      "Option A": "Kidneys",
+      "Option B": "Liver",
+      "Option C": "Heart",
+      "Option D": "Lungs",
+      "Correct Option": "A",
+      "Explanation": "The kidneys filter waste products from the blood and produce urine. Each person has two kidneys located on either side of the spine."
+    },
+    {
+      "Q.No": "7",
+      "Question": "What is the smallest unit of matter?",
+      "Option A": "Atom",
+      "Option B": "Molecule",
+      "Option C": "Cell",
+      "Option D": "Electron",
+      "Correct Option": "A",
+      "Explanation": "An atom is the smallest unit of ordinary matter that forms a chemical element. Every solid, liquid, gas, and plasma is composed of atoms."
+    },
+    {
+      "Q.No": "8",
+      "Question": "Which force keeps planets in orbit around the Sun?",
+      "Option A": "Gravity",
+      "Option B": "Magnetism",
+      "Option C": "Friction",
+      "Option D": "Nuclear force",
+      "Correct Option": "A",
+      "Explanation": "Gravity is the force of attraction between any two masses. The Sun's gravity keeps the planets in their orbits."
+    },
+    {
+      "Q.No": "9",
+      "Question": "What is the pH value of pure water?",
+      "Option A": "7",
+      "Option B": "0",
+      "Option C": "14",
+      "Option D": "1",
+      "Correct Option": "A",
+      "Explanation": "Pure water has a pH of 7, which is neutral on the pH scale. Values below 7 are acidic, and values above 7 are basic/alkaline."
+    },
+    {
+      "Q.No": "10",
+      "Question": "Which gas makes up approximately 78% of Earth's atmosphere?",
+      "Option A": "Nitrogen",
+      "Option B": "Oxygen",
+      "Option C": "Carbon dioxide",
+      "Option D": "Argon",
+      "Correct Option": "A",
+      "Explanation": "Earth's atmosphere is approximately 78% nitrogen, 21% oxygen, and 1% other gases including argon, carbon dioxide, and water vapor."
+    }
+  ]
+}
