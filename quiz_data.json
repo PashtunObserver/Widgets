@@ -1,0 +1,308 @@
+{
+    "jsonData_cs": [
+        {
+            "Q.No": "1",
+            "Question": "What does cybersecurity primarily aim to protect?",
+            "Option A": "Data, networks, and systems",
+            "Option B": "Only software applications",
+            "Option C": "Only hardware devices",
+            "Option D": "Only user credentials",
+            "Correct Option": "A",
+            "Explanation": "Cybersecurity focuses on protecting data, networks, and systems from unauthorized access and attacks."
+        },
+        {
+            "Q.No": "2",
+            "Question": "Which of the following is a common cyber threat?",
+            "Option A": "Malware",
+            "Option B": "Natural disasters",
+            "Option C": "Hardware malfunctions",
+            "Option D": "Software updates",
+            "Correct Option": "A",
+            "Explanation": "Malware, including viruses, worms, and trojans, is one of the most common cyber threats."
+        },
+        {
+            "Q.No": "3",
+            "Question": "What is a firewall?",
+            "Option A": "A network security device that monitors and filters traffic",
+            "Option B": "A software for virus scanning",
+            "Option C": "A tool for encrypting files",
+            "Option D": "A type of intrusion detection system",
+            "Correct Option": "A",
+            "Explanation": "A firewall controls incoming and outgoing network traffic based on predetermined security rules."
+        },
+        {
+            "Q.No": "4",
+            "Question": "What does 'phishing' refer to in cybersecurity?",
+            "Option A": "A fraudulent attempt to obtain sensitive information by disguising as a trustworthy entity",
+            "Option B": "A method of encrypting data",
+            "Option C": "A type of firewall configuration",
+            "Option D": "A network monitoring tool",
+            "Correct Option": "A",
+            "Explanation": "Phishing is a cyberattack where attackers impersonate legitimate organizations to steal sensitive data like passwords and credit card numbers."
+        },
+        {
+            "Q.No": "5",
+            "Question": "Which encryption protocol is commonly used for secure web browsing?",
+            "Option A": "SSL/TLS",
+            "Option B": "FTP",
+            "Option C": "HTTP",
+            "Option D": "SMTP",
+            "Correct Option": "A",
+            "Explanation": "SSL (Secure Sockets Layer) and TLS (Transport Layer Security) are cryptographic protocols designed to provide secure communication over a computer network."
+        },
+        {
+            "Q.No": "6",
+            "Question": "What is the purpose of a VPN?",
+            "Option A": "To create a secure, encrypted connection over a less secure network",
+            "Option B": "To increase internet speed",
+            "Option C": "To block all incoming traffic",
+            "Option D": "To replace a firewall",
+            "Correct Option": "A",
+            "Explanation": "A Virtual Private Network (VPN) extends a private network across a public network, enabling users to send and receive data securely."
+        },
+        {
+            "Q.No": "7",
+            "Question": "What is 'two-factor authentication' (2FA)?",
+            "Option A": "A security process requiring two different authentication factors to verify identity",
+            "Option B": "Using two passwords instead of one",
+            "Option C": "Logging in from two different devices",
+            "Option D": "A type of encryption method",
+            "Correct Option": "A",
+            "Explanation": "2FA adds an extra layer of security by requiring two forms of identification, such as a password and a code sent to your phone."
+        },
+        {
+            "Q.No": "8",
+            "Question": "Which of the following is NOT a type of malware?",
+            "Option A": "Firewall",
+            "Option B": "Ransomware",
+            "Option C": "Spyware",
+            "Option D": "Trojan",
+            "Correct Option": "A",
+            "Explanation": "A firewall is a security device, not malware. Ransomware, spyware, and trojans are all types of malicious software."
+        },
+        {
+            "Q.No": "9",
+            "Question": "What does DDoS stand for?",
+            "Option A": "Distributed Denial of Service",
+            "Option B": "Data Delivery Over System",
+            "Option C": "Digital Defense Operating System",
+            "Option D": "Dynamic Data Output Stream",
+            "Correct Option": "A",
+            "Explanation": "A DDoS attack attempts to disrupt normal traffic by overwhelming the target with a flood of Internet traffic from multiple sources."
+        },
+        {
+            "Q.No": "10",
+            "Question": "What is the primary purpose of an antivirus software?",
+            "Option A": "To detect, prevent, and remove malware",
+            "Option B": "To speed up the computer",
+            "Option C": "To manage network connections",
+            "Option D": "To create backups",
+            "Correct Option": "A",
+            "Explanation": "Antivirus software is designed to detect, prevent, and remove malicious software like viruses, worms, and trojans."
+        }
+    ],
+    "jsonData_eng": [
+        {
+            "Q.No": "1",
+            "Question": "Which sentence is grammatically correct?",
+            "Option A": "She doesn't like apples.",
+            "Option B": "She don't like apples.",
+            "Option C": "She not like apples.",
+            "Option D": "She isn't like apples.",
+            "Correct Option": "A",
+            "Explanation": "With third-person singular subjects (she, he, it), we use 'doesn't' + base verb. 'Don't' is used with I, you, we, they."
+        },
+        {
+            "Q.No": "2",
+            "Question": "Choose the correct past tense form: 'Yesterday, I _____ to the market.'",
+            "Option A": "went",
+            "Option B": "go",
+            "Option C": "gone",
+            "Option D": "going",
+            "Correct Option": "A",
+            "Explanation": "'Went' is the simple past tense of 'go'. We use simple past for completed actions at a specific time in the past."
+        },
+        {
+            "Q.No": "3",
+            "Question": "Which word is a synonym of 'happy'?",
+            "Option A": "Joyful",
+            "Option B": "Sad",
+            "Option C": "Angry",
+            "Option D": "Tired",
+            "Correct Option": "A",
+            "Explanation": "'Joyful' means feeling or expressing great happiness, making it a synonym of 'happy'."
+        },
+        {
+            "Q.No": "4",
+            "Question": "Identify the noun in this sentence: 'The cat sleeps on the mat.'",
+            "Option A": "cat",
+            "Option B": "sleeps",
+            "Option C": "on",
+            "Option D": "the",
+            "Correct Option": "A",
+            "Explanation": "A noun is a word that names a person, place, thing, or animal. 'Cat' is a noun naming an animal."
+        },
+        {
+            "Q.No": "5",
+            "Question": "Which is the correct comparative form of 'good'?",
+            "Option A": "better",
+            "Option B": "gooder",
+            "Option C": "more good",
+            "Option D": "best",
+            "Correct Option": "A",
+            "Explanation": "'Better' is the comparative form of 'good'. 'Best' is the superlative form. 'Good' is an irregular adjective."
+        },
+        {
+            "Q.No": "6",
+            "Question": "Choose the correct article: 'I saw _____ elephant at the zoo.'",
+            "Option A": "an",
+            "Option B": "a",
+            "Option C": "the",
+            "Option D": "no article needed",
+            "Correct Option": "A",
+            "Explanation": "We use 'an' before words that begin with a vowel sound. 'Elephant' starts with a vowel sound /e/."
+        },
+        {
+            "Q.No": "7",
+            "Question": "Which sentence uses the correct subject-verb agreement?",
+            "Option A": "The group of students is studying.",
+            "Option B": "The group of students are studying.",
+            "Option C": "The group of students were studying.",
+            "Option D": "The group of students have studying.",
+            "Correct Option": "A",
+            "Explanation": "When the subject is 'group' (singular), the verb must also be singular ('is'). The phrase 'of students' is a prepositional phrase and doesn't affect verb agreement."
+        },
+        {
+            "Q.No": "8",
+            "Question": "What is the plural form of 'child'?",
+            "Option A": "children",
+            "Option B": "childs",
+            "Option C": "childrens",
+            "Option D": "childes",
+            "Correct Option": "A",
+            "Explanation": "'Children' is the irregular plural form of 'child'. Many English nouns have irregular plurals that don't follow the standard -s or -es rule."
+        },
+        {
+            "Q.No": "9",
+            "Question": "Choose the correct preposition: 'She is interested _____ learning French.'",
+            "Option A": "in",
+            "Option B": "on",
+            "Option C": "at",
+            "Option D": "to",
+            "Correct Option": "A",
+            "Explanation": "The adjective 'interested' is typically followed by the preposition 'in'. We say 'interested in' something."
+        },
+        {
+            "Q.No": "10",
+            "Question": "Which sentence is in the passive voice?",
+            "Option A": "The cake was baked by my mother.",
+            "Option B": "My mother baked the cake.",
+            "Option C": "My mother is baking the cake.",
+            "Option D": "My mother will bake the cake.",
+            "Correct Option": "A",
+            "Explanation": "Passive voice is formed with 'be' + past participle. In 'The cake was baked by my mother', the object (cake) becomes the subject and the action is done to it."
+        }
+    ],
+    "jsonData_Sci": [
+        {
+            "Q.No": "1",
+            "Question": "What is the chemical symbol for water?",
+            "Option A": "H\u2082O",
+            "Option B": "CO\u2082",
+            "Option C": "NaCl",
+            "Option D": "O\u2082",
+            "Correct Option": "A",
+            "Explanation": "Water is composed of two hydrogen atoms and one oxygen atom, giving it the chemical formula H\u2082O."
+        },
+        {
+            "Q.No": "2",
+            "Question": "Which planet is known as the Red Planet?",
+            "Option A": "Mars",
+            "Option B": "Venus",
+            "Option C": "Jupiter",
+            "Option D": "Saturn",
+            "Correct Option": "A",
+            "Explanation": "Mars is called the Red Planet because of the iron oxide (rust) on its surface, which gives it a reddish appearance."
+        },
+        {
+            "Q.No": "3",
+            "Question": "What is the powerhouse of the cell?",
+            "Option A": "Mitochondria",
+            "Option B": "Nucleus",
+            "Option C": "Ribosome",
+            "Option D": "Chloroplast",
+            "Correct Option": "A",
+            "Explanation": "Mitochondria are organelles that generate most of the cell's supply of adenosine triphosphate (ATP), used as a source of chemical energy."
+        },
+        {
+            "Q.No": "4",
+            "Question": "What gas do plants absorb from the atmosphere during photosynthesis?",
+            "Option A": "Carbon dioxide",
+            "Option B": "Oxygen",
+            "Option C": "Nitrogen",
+            "Option D": "Hydrogen",
+            "Correct Option": "A",
+            "Explanation": "During photosynthesis, plants take in carbon dioxide (CO\u2082) from the air and water (H\u2082O) from the soil to produce glucose and oxygen."
+        },
+        {
+            "Q.No": "5",
+            "Question": "What is the speed of light in a vacuum?",
+            "Option A": "Approximately 299,792 km/s",
+            "Option B": "Approximately 150,000 km/s",
+            "Option C": "Approximately 500,000 km/s",
+            "Option D": "Approximately 100,000 km/s",
+            "Correct Option": "A",
+            "Explanation": "The speed of light in a vacuum is exactly 299,792,458 meters per second (approximately 300,000 km/s)."
+        },
+        {
+            "Q.No": "6",
+            "Question": "Which organ in the human body is primarily responsible for filtering blood?",
+            "Option A": "Kidneys",
+            "Option B": "Liver",
+            "Option C": "Heart",
+            "Option D": "Lungs",
+            "Correct Option": "A",
+            "Explanation": "The kidneys filter waste products from the blood and produce urine. Each person has two kidneys located on either side of the spine."
+        },
+        {
+            "Q.No": "7",
+            "Question": "What is the smallest unit of matter?",
+            "Option A": "Atom",
+            "Option B": "Molecule",
+            "Option C": "Cell",
+            "Option D": "Electron",
+            "Correct Option": "A",
+            "Explanation": "An atom is the smallest unit of ordinary matter that forms a chemical element. Every solid, liquid, gas, and plasma is composed of atoms."
+        },
+        {
+            "Q.No": "8",
+            "Question": "Which force keeps planets in orbit around the Sun?",
+            "Option A": "Gravity",
+            "Option B": "Magnetism",
+            "Option C": "Friction",
+            "Option D": "Nuclear force",
+            "Correct Option": "A",
+            "Explanation": "Gravity is the force of attraction between any two masses. The Sun's gravity keeps the planets in their orbits."
+        },
+        {
+            "Q.No": "9",
+            "Question": "What is the pH value of pure water?",
+            "Option A": "7",
+            "Option B": "0",
+            "Option C": "14",
+            "Option D": "1",
+            "Correct Option": "A",
+            "Explanation": "Pure water has a pH of 7, which is neutral on the pH scale. Values below 7 are acidic, and values above 7 are basic/alkaline."
+        },
+        {
+            "Q.No": "10",
+            "Question": "Which gas makes up approximately 78% of Earth's atmosphere?",
+            "Option A": "Nitrogen",
+            "Option B": "Oxygen",
+            "Option C": "Carbon dioxide",
+            "Option D": "Argon",
+            "Correct Option": "A",
+            "Explanation": "Earth's atmosphere is approximately 78% nitrogen, 21% oxygen, and 1% other gases including argon, carbon dioxide, and water vapor."
+        }
+    ]
+}
